@@ -1,0 +1,1 @@
+java -jar -Xmx150m -XX:+UnlockCommercialFeatures -XX:+FlightRecorder target/scala-2.11/example.jar $1 $2
