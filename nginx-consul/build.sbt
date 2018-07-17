@@ -17,7 +17,7 @@ val consul = Seq(
   "com.orbitz.consul" % "consul-client" % "0.16.5"
 )
 
-val myProject = Project("nginx-consule", file("."))
+val myProject = Project("nc", file("."))
   .settings(
     fork in run := true,
     assemblyJarName in assembly := "app.jar",
